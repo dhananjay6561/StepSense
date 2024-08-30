@@ -96,8 +96,8 @@ def distance_finder(focal_length, real_object_width, width_in_frmae):
     return distance
 
 
-ref_person = cv2.imread("ReferenceImages/image14.png")
-ref_mobile = cv2.imread("ReferenceImages/image4.png")
+ref_person = cv2.imread("ReferenceImages/image14.jpeg")
+ref_mobile = cv2.imread("ReferenceImages/image4.jpeg")
 
 mobile_data = object_detector(ref_mobile)
 mobile_width_in_rf = mobile_data[1][1]
